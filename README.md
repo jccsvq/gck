@@ -17,7 +17,7 @@ Two versions of the programs are maintained here:
 1. As standalone programs, for historical reasons, in the `progs/` subdirectory.
 2. As programs with common functions in a shared library (`libGCK2.c`) in the `libGCK/` subdirectory.
 
-In fact, the main goal of this project was the creation of the `libGCK.c` library, which was used in a `Python3` project where data management and plotting were handled by `pandas`, `numpy`, `matplotlib`, etc., while the calculations were entrusted to the C library. For this reason, no attempt was made to modernize the user interface, leaving it as it was in the past (see historical note below). However, the aforementioned project was abandoned in favor of a pure Python 3 project that will be released under the name: `pyGEKO`.
+In fact, the main goal of this project was the creation of the `libGCK.c` library, which was used in a `Python3` project where data management and plotting were handled by `pandas`, `numpy`, `matplotlib`, etc., while the calculations were entrusted to the C library. For this reason, no attempt was made to modernize the user interface, leaving it as it was in the past (see historical note below). However, the aforementioned project was abandoned in favor of a pure Python 3 project that will be released under the name: [`pyGEKO`](https://github.com/jccsvq/pygeko).
 
 ## 🛠️ Compilation
 
